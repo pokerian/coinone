@@ -1,0 +1,32 @@
+# coinone
+my first coinone project
+
+이 프로젝트는 Python 2.7 로 쓰여졌습니다.
+http://doc.coinone.co.kr/#api-Account_V2-GetUserInfo 의 python2 예제를 이용했습니다.
+
+README 는 이 파일이며
+config.ini 는 ACCESS_TOKEN 과 SECRET_KEY 를 포함합니다.
+main.py 파일을 실행시키면 사용자의 이메일 정보와 휴대폰 정보를 보여줍니다.
+
+2018.03.08. 황재섭
+
+------------------------------
+[emailInfo]
+	email:********@*****.***
+	isAuthenticated:true
+
+[mobileInfo]
+	userName:***
+	phoneNumber:***********
+	phoneCorp:*
+	isAuthenticated:true
+------------------------------
+
+This project was written in Python 2.7
+And the python2 example in 'http://doc.coinone.co.kr/#api-Account_V2-GetUserInfo' was used.
+
+README is the file you are looking at.
+config.ini has ACCESS_TOKEN and SECRET_KEY.
+You can run main.py, and it will show you the user's email and mobile information.
+
+2018.03.08. Hwang Jaeseop
